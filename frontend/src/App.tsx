@@ -1,6 +1,8 @@
 import { ConfigProvider, App as AntdApp } from "antd";
 import "./App.css";
 import { RouterProvider } from "react-router-dom";
+import { router } from "./pages";
+import { themeConfig } from "./utils/theme";
 
 function App() {
   return (
